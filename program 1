@@ -1,0 +1,12 @@
+clear
+ dir=$1
+ if [ -d $dir ]
+ then
+ ls -lR $dir | tee f1
+ cut –d “ “ –f5 f1 > f2
+ sort -n f2 > f3
+ echo "Maximum file length is "
+ cat f3 | tail -1
+ else
+ echo "The $dir is not a directory"
+fi
