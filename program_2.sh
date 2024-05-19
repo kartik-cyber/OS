@@ -30,6 +30,7 @@ read k1
 
 
 
+
 To Run: $sh (File name).sh
 Enter the password:(whatever u type its invisible)
  retype password:(whatever u type its invisible)
