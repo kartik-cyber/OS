@@ -13,7 +13,14 @@ echo "file does not exist"
 fi
 done
 fi
-......................................................... Run: $sh Lab4.sh file1 file2
+
+
+
+
+
+
+
+Run: $sh Lab4.sh file1 file2
 Output:
 file is converted into :FILE1
 file is converted into :FILE2
